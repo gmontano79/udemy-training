@@ -16,7 +16,7 @@
     <h6>The Basic Language of the Web: HTML</h6>
     -->
 
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
 
       <nav>
@@ -38,7 +38,9 @@
           height="50"
         />
 
-        <p>Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027
+        </p>
 
         <img
           src="img/post-img.jpg"
@@ -111,7 +113,7 @@
     <aside>
       <h4>Related post</h4>
 
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="img/related-1.jpg"
@@ -120,7 +122,7 @@
             height="75"
           />
           <a href="#">How to Learn Web Development</a>
-          <p>By Jonas Schemedtmann</p>
+          <p class="related-author">By Jonas Schemedtmann</p>
         </li>
 
         <li>
@@ -131,19 +133,19 @@
             height="75"
           />
           <a href="#">The Unkown Powers of CSS</a>
-          <p>By Jimm Dillon</p>
+          <p class="related-author">By Jimm Dillon</p>
         </li>
 
         <li>
           <img src="img/related-3.jpg" alt="web code" width="75" height="75" />
           <a href="#">Why JavaScript is Awsome</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
 
     <footer>
-      <p>Copyright &copy; 2022 by the Beartech Web Solutions</p>
+      <p id="copyright">Copyright &copy; 2022 by the Beartech Web Solutions</p>
     </footer>
   </body>
 </html>
